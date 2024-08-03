@@ -1,0 +1,199 @@
+/* 
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    height: 120vh;
+  }
+  hr{
+    color: black;
+  }
+  .logo{
+    color: white;
+  }
+  .info-section {
+    background-color: #275317;
+    color: #fff;
+    padding: 60px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo img{
+    color: white;
+  }
+  .info-section .logo {
+    margin-bottom: 10px;
+  }
+  
+  .info-section h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .info-section p {
+    margin: 10px 0;
+  }
+  
+  .info-section a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .auth-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .login, .register {
+    background-color: #f4f4f4;
+    border: 1px solid black;
+    /* display: flex; */
+    /* padding: 15px;
+    height: -10px;
+    margin-bottom: 100px;
+  }
+  .login h2, .register h2 {
+    margin-bottom: 15px;
+  }
+  .register .fieldsss input[type="text"], input [type="password"]{
+    display: flex;
+  }
+  input[type="email"], input[type="password"], input[type="text"] {
+    width: 30%;
+    display: flex;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="email"], input[type="password"], input[type="text"] {
+  display: inline-flex;  
+}
+
+  .fieldsss{
+    display: flex;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #275317;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e6e40;
+  }
+  .emaill{
+    display: flex;
+  } */
+  /* styles.css */
+/* styles.css */
+/* .flip-card {
+  width: 55%;
+  height: 75%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-card-front, .flip-card-back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flip-card-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-card.flip .flip-card-inner {
+  transform: rotateY(180deg);
+} */
+/* Register.css */
+.flip-card {
+  width: 75%;
+  height: 85%;
+  /* perspective: 800px; */
+  position: relative;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  transition:transform 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-card-front, .flip-card-back {
+  width: 90%;
+  height: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  /* box-shadow: 0px 0px 0px 0px; */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.flip-card-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-card.flip .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.form-item {
+  flex: 0 0 48%;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: right;
+  margin-bottom: 20px;
+}

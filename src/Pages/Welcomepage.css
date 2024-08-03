@@ -1,0 +1,87 @@
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container11 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header11 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo11 h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .logo11 p {
+    margin: 0;
+  }
+  
+  .content {
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .info11 {
+    margin-bottom: 20px;
+  }
+  
+  .info11 h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .info11 p, .info11 ol {
+    margin-left: 20px;
+  }
+  
+  .buttons11 {
+    display: flex;
+    display: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    gap: 15px;
+  }
+  
+  button {
+    padding: 0.4rem 2.0rem;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttons11.estimate11:hover {
+    background-color: #3e6e40;
+  }
+  
+  .buttons11.talk11 {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .buttons11.talk11:hover {
+    background-color: #ec971f;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .disclaimer11 {
+    border: 1px solid black;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+  }
+  
+  .copyright {
+    font-size: 0.8em;
+  }

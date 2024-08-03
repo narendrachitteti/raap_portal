@@ -21,6 +21,7 @@ import Landing from "./Pages/Landing";
 import GenericEstimation from "./Pages/GenericEstimation";
 import Regsiter from "./Pages/Regsiter";
 import { useUserStore } from "./store";
+import Welcomepage from "./Pages/Welcomepage";
 // Define the URL of the xlsx file
 // const url = 'https://sharepoint-site.com/path/to/file.xlsx';
 const url =
@@ -217,6 +218,7 @@ function App() {
             <Route path="/landing" element={<Landing />} />
             <Route path="/generic_estimation" element={<GenericEstimation />} />
           </Route>
+          <Route path="/Welcomepage" element={<Welcomepage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
